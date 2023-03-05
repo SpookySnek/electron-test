@@ -1,0 +1,22 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpookySnek/electron-test.git"
+  },
+  "author": "SpookySnek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpookySnek/electron-test/issues"
+  },
+  "homepage": "https://github.com/SpookySnek/electron-test#readme",
+  "devDependencies": {
+    "electron": "^23.1.2"
+  }
+}
