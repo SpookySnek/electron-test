@@ -19,7 +19,7 @@ app.on('ready', () => {
         callback({ requestHeaders: details.requestHeaders })
       });
 
-    const mainWindow = new BrowserWindow({width: 1280, height: 740, frame: false, autoHideMenuBar: true});
+    const mainWindow = new BrowserWindow({width: 1920, height: 1080, frame: false, autoHideMenuBar: true});
 
     mainWindow.loadURL('https://www.youtube.com/tv')
 
