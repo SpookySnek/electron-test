@@ -8,4 +8,4 @@ The end goal of this project is to stream an instance of "mainWindow" through my
 
 # To run:
 Simply clone the repo, open a terminal and type "npm install". Afterwards type "npm start".
-The program is not made into an executable since it is still being worked on
+The program is not made into an executable since it is still very much a work in progress.
