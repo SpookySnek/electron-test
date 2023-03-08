@@ -7,5 +7,5 @@ The reason that I had to use specifically Electron for this project has to do wi
 The end goal of this project is to stream an instance of "mainWindow" through my local network, making it accessible to every device in my network. This could be accomplished with the help of Express.js for example. As of right now, the application works perfect locally.
 
 # To run:
-Simply clone the repo, open a terminal and type "npm install". Afterwards type "npm start".
+Simply clone the repo, open a terminal and navigate into the repo, then type "npm install". Afterwards type "npm start".
 The program is not made into an executable since it is still very much a work in progress.
