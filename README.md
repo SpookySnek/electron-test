@@ -1,6 +1,6 @@
 # electron-youtube-tv-client
 
-This is a simple application made in Electron that opens up a TV-optimized version of YouTube that is completely ad-free. It is made possible by spoofing the User-Agent request header, making it seem like you're visiting from a smart TV, and then filtering the traffic with the help of the "@cliqz/adblocker-electron" module.
+electron-youtube-tv-client is a simple application made in Electron that opens up a TV-optimized version of YouTube that is completely ad-free. It is made possible by spoofing the User-Agent request header, making it seem like you're visiting from a smart TV, and then filtering the traffic with the help of the "@cliqz/adblocker-electron" module.
 
 The reason that I had to use specifically Electron for this project has to do with the way YouTube delivers ads. It is not possible to reliably block ads on YouTube by DNS-level filtering, without blocking the videos themselves. Using Electron, we can instead utilize the chromium engine and more specifically target the ads.
 
